@@ -70,7 +70,6 @@ function App() {
             <FormGroup>
               <Label for="customerName">Customer Name</Label>
               <Input
-                required
                 type="text"
                 id="customerName"
                 value={customerName}
@@ -80,7 +79,6 @@ function App() {
             <FormGroup>
               <Label for="email">Email</Label>
               <Input
-                required
                 type="email"
                 id="email"
                 value={email}
@@ -90,7 +88,6 @@ function App() {
             <FormGroup>
               <Label for="phone">Phone</Label>
               <Input
-                required              
                 type="tel"
                 id="phone"
                 value={phone}
@@ -100,7 +97,6 @@ function App() {
             <FormGroup>
               <Label for="address">Address</Label>
               <Input
-                required
                 type="text"
                 id="address"
                 value={address}
